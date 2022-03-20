@@ -37,7 +37,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$iJjGRVjkhrc4s8XP4zc0EuUWH19sSA9IO5EVEVgm7mAPm58mjDFda"
+        "$2a$10$2D0EWLpHerpkvqmddb3vkOzuHeDpVpl9/Wlde0Ekm8De59svGP61m"
       ]
     }
   },
@@ -287,17 +287,4 @@ export const themeData = {
       }
     }
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

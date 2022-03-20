@@ -2,9 +2,8 @@ export const themeData = {
   "blog": {
     "description": "向上，向善",
     "medias": {
-      "Email": "haoranyu88@163.com",
-      "Gitee": "https://gitee.com/xiafrog",
-      "GitHub": "https://github.com/xiafrog"
+      "GitHub": "https://github.com/xiafrog",
+      "Gitee": "https://gitee.com/xiafrog"
     },
     "roundAvatar": true
   },
@@ -25,9 +24,8 @@ export const themeData = {
       "blog": {
         "description": "向上，向善",
         "medias": {
-          "Email": "haoranyu88@163.com",
-          "Gitee": "https://gitee.com/xiafrog",
-          "GitHub": "https://github.com/xiafrog"
+          "GitHub": "https://github.com/xiafrog",
+          "Gitee": "https://gitee.com/xiafrog"
         },
         "roundAvatar": true
       },
@@ -35,7 +33,7 @@ export const themeData = {
       "navbarIcon": true,
       "navbarAutoHide": "mobile",
       "hideSiteNameonMobile": true,
-      "sidebar": "heading",
+      "sidebar": "structure",
       "sidebarIcon": true,
       "headingDepth": 2,
       "author": {
@@ -51,13 +49,13 @@ export const themeData = {
         {
           "text": "前端",
           "icon": "template",
-          "prefix": "/posts/frontend/",
+          "prefix": "/frontend/",
           "children": [
             {
               "text": "工具",
               "prefix": "tools/",
               "children": [
-                "vuepress/vuepress.md"
+                "vuepress.md"
               ]
             }
           ]

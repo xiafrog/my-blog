@@ -156,6 +156,5 @@ themeConfig<span class="token operator">:</span> <span class="token punctuation"
 <h3 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h3>
 <ol>
 <li>修改<code>config.ts</code>对项目进行基本的配置，<a href="https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/config.ts" target="_blank" rel="noopener noreferrer">这里<ExternalLinkIcon/></a>可以看到本项目的配置。</li>
-<li></li>
 </ol>
 </template>

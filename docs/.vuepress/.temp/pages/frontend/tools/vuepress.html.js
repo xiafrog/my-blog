@@ -4,6 +4,22 @@ export const data = {
   "title": "VuePress初体验",
   "lang": "zh-CN",
   "frontmatter": {
+    "icon": "vue",
+    "category": [
+      "前端",
+      "工具"
+    ],
+    "tag": [
+      "前端",
+      "VuePress",
+      "Vue",
+      "Vite",
+      "TypeScript"
+    ],
+    "star": true,
+    "prev": false,
+    "next": false,
+    "foot": false,
     "summary": "VuePress初体验 起因 最近因为找实习和做项目的原因，接触了很多新知识，想着需要有一个地方来记录自己学到的只是，因此就想着搭建一个个人的博客。 因为本身是做前端开发的，所以动态网站对我来说就有些复杂了，服务器的配置、Java环境的搭建对我来说都很有难度，那些动态的功能我也都用不到。最后，我选择做一个静态网站。 最近在学Vue，就顺理成章地想到了VueP",
     "head": [
       [
@@ -61,6 +77,41 @@ export const data = {
           "name": "twitter:image:alt",
           "content": "VuePress初体验"
         }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:tag",
+          "content": "前端"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:tag",
+          "content": "VuePress"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:tag",
+          "content": "Vue"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:tag",
+          "content": "Vite"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:tag",
+          "content": "TypeScript"
+        }
       ]
     ]
   },
@@ -106,7 +157,7 @@ export const data = {
   ],
   "readingTime": {
     "minutes": 3.88,
-    "words": 1164
+    "words": 1163
   },
   "filePathRelative": "frontend/tools/vuepress.md"
 }

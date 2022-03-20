@@ -4,7 +4,6 @@ export const data = {
   "title": "VuePress初体验",
   "lang": "zh-CN",
   "frontmatter": {
-    "date": "2022-03-20T00:00:00.000Z",
     "category": [
       "前端",
       "工具"
@@ -111,13 +110,6 @@ export const data = {
         {
           "property": "article:tag",
           "content": "TypeScript"
-        }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2022-03-20T00:00:00.000Z"
         }
       ]
     ]

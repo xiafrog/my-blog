@@ -7,6 +7,34 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "前端",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/frontend/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "工具",
+    "headers": [
+      {
+        "level": 2,
+        "title": "目录",
+        "slug": "目录",
+        "children": []
+      }
+    ],
+    "path": "/frontend/tools/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "VuePress初体验",
     "headers": [
       {
@@ -47,7 +75,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/frontend/tools/vuepress/vuepress.html",
+    "path": "/frontend/tools/vuepress.html",
     "pathLocale": "/",
     "extraFields": []
   },

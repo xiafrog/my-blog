@@ -23,7 +23,7 @@ export default defineThemeConfig({
   navbar: navbar,
 
   // sidebar
-  sidebar: "heading",
+  sidebar: "structure",
 
   footer: "鱼塘——俞浩然的个人博客",
 
@@ -34,9 +34,8 @@ export default defineThemeConfig({
   blog: {
     description: "向上，向善",
     medias: {
-      Email: "haoranyu88@163.com",
-      Gitee: "https://gitee.com/xiafrog",
       GitHub: "https://github.com/xiafrog",
+      Gitee: "https://gitee.com/xiafrog",
     },
     roundAvatar: true,
   },

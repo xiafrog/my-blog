@@ -1,6 +1,8 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /posts/frontend/tools/vuepress/vuepress.html
+  "v-0401e826": () => import(/* webpackChunkName: "v-0401e826" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/posts/frontend/tools/vuepress/vuepress.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/
@@ -17,4 +19,18 @@ export const pagesData = {
   "v-154dc4c4": () => import(/* webpackChunkName: "v-154dc4c4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/star/index.html.js").then(({ data }) => data),
   // path: /timeline/
   "v-01560935": () => import(/* webpackChunkName: "v-01560935" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/timeline/index.html.js").then(({ data }) => data),
+  // path: /category/%E5%89%8D%E7%AB%AF/
+  "v-e9c7e408": () => import(/* webpackChunkName: "v-e9c7e408" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/前端/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%89%8D%E7%AB%AF/
+  "v-95f987f4": () => import(/* webpackChunkName: "v-95f987f4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/前端/index.html.js").then(({ data }) => data),
+  // path: /category/%E5%B7%A5%E5%85%B7/
+  "v-14145d44": () => import(/* webpackChunkName: "v-14145d44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/工具/index.html.js").then(({ data }) => data),
+  // path: /tag/vuepress/
+  "v-ed16b278": () => import(/* webpackChunkName: "v-ed16b278" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vuepress/index.html.js").then(({ data }) => data),
+  // path: /tag/vue/
+  "v-b302da92": () => import(/* webpackChunkName: "v-b302da92" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vue/index.html.js").then(({ data }) => data),
+  // path: /tag/vite/
+  "v-294e8ebd": () => import(/* webpackChunkName: "v-294e8ebd" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vite/index.html.js").then(({ data }) => data),
+  // path: /tag/typescript/
+  "v-801db588": () => import(/* webpackChunkName: "v-801db588" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/typescript/index.html.js").then(({ data }) => data),
 }

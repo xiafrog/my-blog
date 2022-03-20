@@ -11,11 +11,14 @@ import {
   init_define_PAGINATION_LOCALES,
   init_define_PHOTO_SWIPE_LOCALES,
   init_define_PHOTO_SWIPE_OPTIONS,
+  init_define_PWA_LOCALES,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-D66N6NHN.js";
 
 // node_modules/dayjs/plugin/timezone.js
 var require_timezone = __commonJS({
@@ -30,11 +33,14 @@ var require_timezone = __commonJS({
     init_define_PAGINATION_LOCALES();
     init_define_PHOTO_SWIPE_LOCALES();
     init_define_PHOTO_SWIPE_OPTIONS();
+    init_define_PWA_LOCALES();
     init_define_READING_TIME_LOCALES();
     init_define_REVEAL_CONFIG();
     init_define_TOC_LOCALES();
     init_define_WALINE_LOCALES();
     init_define_EXTERNAL_LINK_ICON_LOCALES();
+    init_define_SEARCH_HOT_KEYS();
+    init_define_SEARCH_LOCALES();
     !function(t, e) {
       typeof exports == "object" && typeof module != "undefined" ? module.exports = e() : typeof define == "function" && define.amd ? define(e) : (t = typeof globalThis != "undefined" ? globalThis : t || self).dayjs_plugin_timezone = e();
     }(exports, function() {
@@ -110,11 +116,14 @@ init_define_MERMAID_OPTIONS();
 init_define_PAGINATION_LOCALES();
 init_define_PHOTO_SWIPE_LOCALES();
 init_define_PHOTO_SWIPE_OPTIONS();
+init_define_PWA_LOCALES();
 init_define_READING_TIME_LOCALES();
 init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var dayjs_plugin_timezone_default = require_timezone();
 export {
   dayjs_plugin_timezone_default as default

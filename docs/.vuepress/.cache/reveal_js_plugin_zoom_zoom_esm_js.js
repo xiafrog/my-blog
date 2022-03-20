@@ -10,11 +10,14 @@ import {
   init_define_PAGINATION_LOCALES,
   init_define_PHOTO_SWIPE_LOCALES,
   init_define_PHOTO_SWIPE_OPTIONS,
+  init_define_PWA_LOCALES,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-D66N6NHN.js";
 
 // dep:reveal_js_plugin_zoom_zoom_esm_js
 init_define_ARTICLE_INFO_LOCALES();
@@ -27,11 +30,14 @@ init_define_MERMAID_OPTIONS();
 init_define_PAGINATION_LOCALES();
 init_define_PHOTO_SWIPE_LOCALES();
 init_define_PHOTO_SWIPE_OPTIONS();
+init_define_PWA_LOCALES();
 init_define_READING_TIME_LOCALES();
 init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/reveal.js/plugin/zoom/zoom.esm.js
 init_define_ARTICLE_INFO_LOCALES();
@@ -44,11 +50,14 @@ init_define_MERMAID_OPTIONS();
 init_define_PAGINATION_LOCALES();
 init_define_PHOTO_SWIPE_LOCALES();
 init_define_PHOTO_SWIPE_OPTIONS();
+init_define_PWA_LOCALES();
 init_define_READING_TIME_LOCALES();
 init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var e = { id: "zoom", init: function(e2) {
   e2.getRevealElement().addEventListener("mousedown", function(n) {
     var o = /Linux/.test(window.navigator.platform) ? "ctrl" : "alt", i = (e2.getConfig().zoomKey ? e2.getConfig().zoomKey : o) + "Key", d = e2.getConfig().zoomLevel ? e2.getConfig().zoomLevel : 2;

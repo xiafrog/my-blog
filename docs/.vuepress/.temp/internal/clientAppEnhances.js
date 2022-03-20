@@ -4,10 +4,11 @@ import clientAppEnhance2 from 'C:/code/vue-press/my-blog/node_modules/@vuepress/
 import clientAppEnhance3 from 'C:/code/vue-press/my-blog/node_modules/@vuepress/plugin-theme-data/lib/client/clientAppEnhance.js'
 import clientAppEnhance4 from 'C:/code/vue-press/my-blog/node_modules/vuepress-plugin-comment2/lib/client/appEnhance.js'
 import clientAppEnhance5 from 'C:/code/vue-press/my-blog/node_modules/vuepress-plugin-md-enhance/lib/client/appEnhance.js'
-import clientAppEnhance6 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/appEnhance.js'
-import clientAppEnhance7 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/navbar/appEnhance.js'
-import clientAppEnhance8 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
-import clientAppEnhance9 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
+import clientAppEnhance6 from 'C:/code/vue-press/my-blog/node_modules/@vuepress/plugin-search/lib/client/clientAppEnhance.js'
+import clientAppEnhance7 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/appEnhance.js'
+import clientAppEnhance8 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/navbar/appEnhance.js'
+import clientAppEnhance9 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
+import clientAppEnhance10 from 'C:/code/vue-press/my-blog/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
 
 export const clientAppEnhances = [
   clientAppEnhance0,
@@ -20,4 +21,5 @@ export const clientAppEnhances = [
   clientAppEnhance7,
   clientAppEnhance8,
   clientAppEnhance9,
+  clientAppEnhance10,
 ]

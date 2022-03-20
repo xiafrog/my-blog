@@ -10,11 +10,14 @@ import {
   init_define_PAGINATION_LOCALES,
   init_define_PHOTO_SWIPE_LOCALES,
   init_define_PHOTO_SWIPE_OPTIONS,
+  init_define_PWA_LOCALES,
   init_define_READING_TIME_LOCALES,
   init_define_REVEAL_CONFIG,
+  init_define_SEARCH_HOT_KEYS,
+  init_define_SEARCH_LOCALES,
   init_define_TOC_LOCALES,
   init_define_WALINE_LOCALES
-} from "./chunk-SYOGPH4A.js";
+} from "./chunk-D66N6NHN.js";
 
 // dep:mermaid
 init_define_ARTICLE_INFO_LOCALES();
@@ -27,11 +30,14 @@ init_define_MERMAID_OPTIONS();
 init_define_PAGINATION_LOCALES();
 init_define_PHOTO_SWIPE_LOCALES();
 init_define_PHOTO_SWIPE_OPTIONS();
+init_define_PWA_LOCALES();
 init_define_READING_TIME_LOCALES();
 init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 
 // node_modules/mermaid/dist/mermaid.esm.min.mjs
 init_define_ARTICLE_INFO_LOCALES();
@@ -44,11 +50,14 @@ init_define_MERMAID_OPTIONS();
 init_define_PAGINATION_LOCALES();
 init_define_PHOTO_SWIPE_LOCALES();
 init_define_PHOTO_SWIPE_OPTIONS();
+init_define_PWA_LOCALES();
 init_define_READING_TIME_LOCALES();
 init_define_REVEAL_CONFIG();
 init_define_TOC_LOCALES();
 init_define_WALINE_LOCALES();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
+init_define_SEARCH_HOT_KEYS();
+init_define_SEARCH_LOCALES();
 var t = { 1362: (t2, e2, n2) => {
   t2 = n2.nmd(t2);
   var r2 = function() {

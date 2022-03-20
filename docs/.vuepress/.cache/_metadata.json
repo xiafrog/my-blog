@@ -1,6 +1,6 @@
 {
-  "hash": "ea25cc22",
-  "browserHash": "8c138c68",
+  "hash": "264946af",
+  "browserHash": "ca4dfd38",
   "optimized": {
     "vue": {
       "file": "C:/code/vue-press/my-blog/docs/.vuepress/.cache/vue.js",
@@ -96,6 +96,16 @@
       "file": "C:/code/vue-press/my-blog/docs/.vuepress/.cache/photoswipe_dist_photoswipe-ui-default.js",
       "src": "C:/code/vue-press/my-blog/node_modules/photoswipe/dist/photoswipe-ui-default.js",
       "needsInterop": true
+    },
+    "mitt": {
+      "file": "C:/code/vue-press/my-blog/docs/.vuepress/.cache/mitt.js",
+      "src": "C:/code/vue-press/my-blog/node_modules/mitt/dist/mitt.mjs",
+      "needsInterop": false
+    },
+    "register-service-worker": {
+      "file": "C:/code/vue-press/my-blog/docs/.vuepress/.cache/register-service-worker.js",
+      "src": "C:/code/vue-press/my-blog/node_modules/register-service-worker/index.js",
+      "needsInterop": false
     },
     "bcryptjs": {
       "file": "C:/code/vue-press/my-blog/docs/.vuepress/.cache/bcryptjs.js",

@@ -16,14 +16,14 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/my-blog/timeline/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/timeline/"
         }
       ],
       [
         "meta",
         {
           "property": "og:site_name",
-          "content": "主题演示"
+          "content": "鱼塘"
         }
       ],
       [
@@ -51,10 +51,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
   "readingTime": {
     "minutes": 0,
     "words": 0
   },
   "filePathRelative": null
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

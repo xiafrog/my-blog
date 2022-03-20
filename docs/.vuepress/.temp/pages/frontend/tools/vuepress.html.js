@@ -169,7 +169,7 @@ export const data = {
   ],
   "readingTime": {
     "minutes": 5.15,
-    "words": 1544
+    "words": 1545
   },
   "filePathRelative": "frontend/tools/vuepress.md"
 }

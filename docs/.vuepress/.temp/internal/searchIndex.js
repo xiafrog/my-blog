@@ -7,7 +7,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端工具",
+    "title": "前端",
     "headers": [],
     "path": "/frontend/",
     "pathLocale": "/",
@@ -57,8 +57,20 @@ export const searchIndex = [
             "title": "配置",
             "slug": "配置",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "博客主页",
+            "slug": "博客主页",
+            "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "完成",
+        "slug": "完成",
+        "children": []
       }
     ],
     "path": "/frontend/tools/vuepress.html",

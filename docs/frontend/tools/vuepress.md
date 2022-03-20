@@ -302,4 +302,4 @@ export default defineSidebarConfig({
 
 ## 完成
 
-用git push到之前设置到的master分支，自动执行GitHub Action，Page就自动更新啦！
+用git push到之前设置到的master分支，自动执行GitHub Action，Page就自动更新啦！:smiling_face_with_three_hearts:

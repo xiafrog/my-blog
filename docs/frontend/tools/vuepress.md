@@ -211,4 +211,95 @@ npm init vuepress-theme-hope@next docs
 
 ### 配置
 
-1. 修改`config.ts`对项目进行基本的配置，[这里](https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/config.ts)可以看到本项目的配置。
+#### 全局配置
+
+修改`config.ts`对项目进行基本的配置，[这里](https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/config.ts)可以看到本项目的配置。
+
+  主要对默认的路由路径以及语言进行了设置。
+
+  ```ts {5,19-25}
+  import { defineHopeConfig } from "vuepress-theme-hope";
+  import themeConfig from "./themeConfig";
+
+  export default defineHopeConfig({
+    base: "/my-blog/",
+
+    dest: "./dist",
+
+    head: [
+      [
+        "link",
+        {
+          rel: "stylesheet",
+          href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
+        },
+      ],
+    ],
+
+    locales: {
+      "/": {
+        lang: "zh-CN",
+        title: "鱼塘",
+        description: "俞浩然的个人博客",
+      },
+    },
+
+    themeConfig,
+  });
+  ```
+
+- 在写这一部分的过程中，本来以为代码行高亮的功能是内置插件，在VuePress中也是默认开启的。但是不生效，只能用`markdown.code.highlightLines: true`手动开启。最后发现，原来是逗号间不能有空格.
+
+```md
+<!-- 错误 -->
+```ts {5, 19-25}
+
+<!-- 正确 -->
+```ts {5,19-25}
+```
+
+#### 主题配置
+
+修改`themeConfig.ts`对项目进行基本的配置，[这里](https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/themeConfig.ts)可以看到本项目的配置。
+
+主要参考了官方文档中的[主题配置](https://vuepress-theme-hope.github.io/v2/zh/config/theme/#%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D)
+
+其中，单独配置了导航栏和侧边栏。
+
+```ts
+//navbar.ts
+import { defineNavbarConfig } from "vuepress-theme-hope";
+
+export default defineNavbarConfig([
+  "/",
+  {
+    text: "前端",
+    icon: "template",
+    prefix: "/frontend/",
+    children: [
+      {
+        text: "前端工具",
+        prefix: "tools/",
+        children: ["vuepress.md"],
+      },
+    ],
+  },
+]);
+
+//sidebar.ts
+import { defineSidebarConfig } from "vuepress-theme-hope";
+
+export default defineSidebarConfig({
+  //按照目录结构自动配置
+  "/frontend/": "structure",
+});
+
+```
+
+### 博客主页
+
+博客主页在文档目录下的[`README.md`](https://github.com/xiafrog/my-blog/blob/master/docs/README.md)中进行设置，主要是用页面的yml进行配置。
+
+## 完成
+
+用git push到之前设置到的master分支，自动执行GitHub Action，Page就自动更新啦！

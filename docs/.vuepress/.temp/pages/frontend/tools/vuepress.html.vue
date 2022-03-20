@@ -154,7 +154,78 @@ themeConfig<span class="token operator">:</span> <span class="token punctuation"
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>输入命令后，按照选项一步一步选即可。选完就能看到<a href="http://localhost:8080/" target="_blank" rel="noopener noreferrer">demo<ExternalLinkIcon/></a>了。</p>
 <p><img src="@source/frontend/tools/3.png" alt="图3" loading="lazy"></p>
 <h3 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h3>
-<ol>
-<li>修改<code>config.ts</code>对项目进行基本的配置，<a href="https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/config.ts" target="_blank" rel="noopener noreferrer">这里<ExternalLinkIcon/></a>可以看到本项目的配置。</li>
-</ol>
+<h4 id="全局配置" tabindex="-1"><a class="header-anchor" href="#全局配置" aria-hidden="true">#</a> 全局配置</h4>
+<p>修改<code>config.ts</code>对项目进行基本的配置，<a href="https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/config.ts" target="_blank" rel="noopener noreferrer">这里<ExternalLinkIcon/></a>可以看到本项目的配置。</p>
+<p>主要对默认的路由路径以及语言进行了设置。</p>
+<div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineHopeConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress-theme-hope"</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> themeConfig <span class="token keyword">from</span> <span class="token string">"./themeConfig"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineHopeConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  base<span class="token operator">:</span> <span class="token string">"/my-blog/"</span><span class="token punctuation">,</span>
+
+  dest<span class="token operator">:</span> <span class="token string">"./dist"</span><span class="token punctuation">,</span>
+
+  head<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span>
+      <span class="token string">"link"</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        rel<span class="token operator">:</span> <span class="token string">"stylesheet"</span><span class="token punctuation">,</span>
+        href<span class="token operator">:</span> <span class="token string">"//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css"</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+  locales<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string-property property">"/"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      lang<span class="token operator">:</span> <span class="token string">"zh-CN"</span><span class="token punctuation">,</span>
+      title<span class="token operator">:</span> <span class="token string">"鱼塘"</span><span class="token punctuation">,</span>
+      description<span class="token operator">:</span> <span class="token string">"俞浩然的个人博客"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  themeConfig<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="highlight-lines"><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><br><br><br></div><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><ul>
+<li>在写这一部分的过程中，本来以为代码行高亮的功能是内置插件，在VuePress中也是默认开启的。但是不生效，只能用<code>markdown.code.highlightLines: true</code>手动开启。最后发现，原来是逗号间不能有空格.</li>
+</ul>
+<div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token comment">&lt;!-- 错误 --></span>
+```ts {5, 19-25}
+
+<span class="token comment">&lt;!-- 正确 --></span>
+```ts {5,19-25}
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="主题配置" tabindex="-1"><a class="header-anchor" href="#主题配置" aria-hidden="true">#</a> 主题配置</h4>
+<p>修改<code>themeConfig.ts</code>对项目进行基本的配置，<a href="https://github.com/xiafrog/my-blog/blob/master/docs/.vuepress/themeConfig.ts" target="_blank" rel="noopener noreferrer">这里<ExternalLinkIcon/></a>可以看到本项目的配置。</p>
+<p>主要参考了官方文档中的<a href="https://vuepress-theme-hope.github.io/v2/zh/config/theme/#%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D" target="_blank" rel="noopener noreferrer">主题配置<ExternalLinkIcon/></a></p>
+<p>其中，单独配置了导航栏和侧边栏。</p>
+<div class="language-typescript ext-ts line-numbers-mode"><pre v-pre class="language-typescript"><code><span class="token comment">//navbar.ts</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineNavbarConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress-theme-hope"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineNavbarConfig</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token string">"/"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    text<span class="token operator">:</span> <span class="token string">"前端"</span><span class="token punctuation">,</span>
+    icon<span class="token operator">:</span> <span class="token string">"template"</span><span class="token punctuation">,</span>
+    prefix<span class="token operator">:</span> <span class="token string">"/frontend/"</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">"前端工具"</span><span class="token punctuation">,</span>
+        prefix<span class="token operator">:</span> <span class="token string">"tools/"</span><span class="token punctuation">,</span>
+        children<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"vuepress.md"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//sidebar.ts</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineSidebarConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"vuepress-theme-hope"</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineSidebarConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token comment">//按照目录结构自动配置</span>
+  <span class="token string-property property">"/frontend/"</span><span class="token operator">:</span> <span class="token string">"structure"</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h3 id="博客主页" tabindex="-1"><a class="header-anchor" href="#博客主页" aria-hidden="true">#</a> 博客主页</h3>
+<p>博客主页在文档目录下的<a href="https://github.com/xiafrog/my-blog/blob/master/docs/README.md" target="_blank" rel="noopener noreferrer"><code>README.md</code><ExternalLinkIcon/></a>中进行设置，主要是用页面的yml进行配置。</p>
+<h2 id="完成" tabindex="-1"><a class="header-anchor" href="#完成" aria-hidden="true">#</a> 完成</h2>
+<p>用git push到之前设置到的master分支，自动执行GitHub Action，Page就自动更新啦！</p>
 </template>

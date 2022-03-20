@@ -8,7 +8,7 @@ export default defineNavbarConfig([
     prefix: "/frontend/",
     children: [
       {
-        text: "工具",
+        text: "前端工具",
         prefix: "tools/",
         children: ["vuepress.md"],
       },

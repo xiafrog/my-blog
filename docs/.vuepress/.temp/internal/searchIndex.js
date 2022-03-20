@@ -7,29 +7,15 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
+    "title": "前端工具",
+    "headers": [],
     "path": "/frontend/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "工具",
-    "headers": [
-      {
-        "level": 2,
-        "title": "目录",
-        "slug": "目录",
-        "children": []
-      }
-    ],
+    "title": "前端工具",
+    "headers": [],
     "path": "/frontend/tools/",
     "pathLocale": "/",
     "extraFields": []
@@ -136,9 +122,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端 分类",
+    "title": "目录 分类",
     "headers": [],
-    "path": "/category/%E5%89%8D%E7%AB%AF/",
+    "path": "/category/%E7%9B%AE%E5%BD%95/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -150,9 +136,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "工具 分类",
+    "title": "前端 分类",
     "headers": [],
-    "path": "/category/%E5%B7%A5%E5%85%B7/",
+    "path": "/category/%E5%89%8D%E7%AB%AF/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -160,6 +146,13 @@ export const searchIndex = [
     "title": "VuePress 标签",
     "headers": [],
     "path": "/tag/vuepress/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "工具 分类",
+    "headers": [],
+    "path": "/category/%E5%B7%A5%E5%85%B7/",
     "pathLocale": "/",
     "extraFields": []
   },

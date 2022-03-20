@@ -1,5 +1,6 @@
 import { defineThemeConfig } from "vuepress-theme-hope";
 import navbar from "./navbar";
+import sidebar from "./sidebar";
 
 export default defineThemeConfig({
   hostname: "https://xiafrog.github.io/my-blog/",
@@ -23,7 +24,7 @@ export default defineThemeConfig({
   navbar: navbar,
 
   // sidebar
-  sidebar: "structure",
+  sidebar: sidebar,
 
   footer: "鱼塘——俞浩然的个人博客",
 

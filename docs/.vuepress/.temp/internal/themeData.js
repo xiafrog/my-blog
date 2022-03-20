@@ -33,7 +33,9 @@ export const themeData = {
       "navbarIcon": true,
       "navbarAutoHide": "mobile",
       "hideSiteNameonMobile": true,
-      "sidebar": "structure",
+      "sidebar": {
+        "/frontend/": "structure"
+      },
       "sidebarIcon": true,
       "headingDepth": 2,
       "author": {
@@ -52,7 +54,7 @@ export const themeData = {
           "prefix": "/frontend/",
           "children": [
             {
-              "text": "工具",
+              "text": "前端工具",
               "prefix": "tools/",
               "children": [
                 "vuepress.md"

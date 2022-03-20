@@ -151,13 +151,25 @@ export const data = {
           "title": "配置",
           "slug": "配置",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "博客主页",
+          "slug": "博客主页",
+          "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "完成",
+      "slug": "完成",
+      "children": []
     }
   ],
   "readingTime": {
-    "minutes": 3.88,
-    "words": 1163
+    "minutes": 5.15,
+    "words": 1544
   },
   "filePathRelative": "frontend/tools/vuepress.md"
 }

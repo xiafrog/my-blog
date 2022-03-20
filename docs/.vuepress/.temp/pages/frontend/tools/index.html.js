@@ -1,10 +1,13 @@
 export const data = {
   "key": "v-cff06f90",
   "path": "/frontend/tools/",
-  "title": "目录",
+  "title": "前端工具",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "目录 前端所使用到的工具 VuePress;",
+    "category": [
+      "目录"
+    ],
+    "summary": "前端工具 前端所使用到的工具 VuePress;",
     "head": [
       [
         "meta",
@@ -24,7 +27,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "目录"
+          "content": "前端工具"
         }
       ],
       [
@@ -47,7 +50,7 @@ export const data = {
   "headers": [],
   "readingTime": {
     "minutes": 0.05,
-    "words": 14
+    "words": 16
   },
   "filePathRelative": "frontend/tools/README.md"
 }

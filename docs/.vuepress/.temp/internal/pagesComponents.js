@@ -25,14 +25,16 @@ export const pagesComponents = {
   "v-154dc4c4": defineAsyncComponent(() => import(/* webpackChunkName: "v-154dc4c4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/star/index.html.vue")),
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/timeline/index.html.vue")),
-  // path: /category/%E5%89%8D%E7%AB%AF/
-  "v-e9c7e408": defineAsyncComponent(() => import(/* webpackChunkName: "v-e9c7e408" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/前端/index.html.vue")),
+  // path: /category/%E7%9B%AE%E5%BD%95/
+  "v-f96d488c": defineAsyncComponent(() => import(/* webpackChunkName: "v-f96d488c" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/目录/index.html.vue")),
   // path: /tag/%E5%89%8D%E7%AB%AF/
   "v-95f987f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-95f987f4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/前端/index.html.vue")),
-  // path: /category/%E5%B7%A5%E5%85%B7/
-  "v-14145d44": defineAsyncComponent(() => import(/* webpackChunkName: "v-14145d44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/工具/index.html.vue")),
+  // path: /category/%E5%89%8D%E7%AB%AF/
+  "v-e9c7e408": defineAsyncComponent(() => import(/* webpackChunkName: "v-e9c7e408" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/前端/index.html.vue")),
   // path: /tag/vuepress/
   "v-ed16b278": defineAsyncComponent(() => import(/* webpackChunkName: "v-ed16b278" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vuepress/index.html.vue")),
+  // path: /category/%E5%B7%A5%E5%85%B7/
+  "v-14145d44": defineAsyncComponent(() => import(/* webpackChunkName: "v-14145d44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/工具/index.html.vue")),
   // path: /tag/vue/
   "v-b302da92": defineAsyncComponent(() => import(/* webpackChunkName: "v-b302da92" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vue/index.html.vue")),
   // path: /tag/vite/

@@ -1,4 +1,5 @@
 ---
+icon: template
 category: [目录]
 ---
 

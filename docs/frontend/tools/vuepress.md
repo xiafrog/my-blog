@@ -3,9 +3,6 @@ icon: vue
 category: [前端, 工具]
 tag: [前端, VuePress, Vue, Vite, TypeScript]
 star: true
-prev: false
-next: false
-foot: false
 ---
 
 # VuePress初体验

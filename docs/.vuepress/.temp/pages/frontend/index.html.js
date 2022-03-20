@@ -4,6 +4,7 @@ export const data = {
   "title": "前端",
   "lang": "zh-CN",
   "frontmatter": {
+    "icon": "template",
     "category": [
       "目录"
     ],

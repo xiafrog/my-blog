@@ -2,8 +2,8 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-8daa1a0e","/",{"title":"博客主页","icon":"home","type":"home","readingTime":{"minutes":0,"words":0},"excerpt":""},["/index.html","/README.md"]],
-  ["v-06198984","/frontend/",{"title":"前端","type":"article","readingTime":{"minutes":0.1,"words":29},"excerpt":"前端 所有前端相关的文章都会在这里展示 前端工具; VuePress;","category":["目录"]},["/frontend/index.html","/frontend/README.md"]],
-  ["v-cff06f90","/frontend/tools/",{"title":"前端工具","type":"article","readingTime":{"minutes":0.05,"words":16},"excerpt":"前端工具 前端所使用到的工具 VuePress;","category":["目录"]},["/frontend/tools/index.html","/frontend/tools/README.md"]],
+  ["v-06198984","/frontend/",{"title":"前端","icon":"template","type":"article","readingTime":{"minutes":0.1,"words":29},"excerpt":"前端 所有前端相关的文章都会在这里展示 前端工具; VuePress;","category":["目录"]},["/frontend/index.html","/frontend/README.md"]],
+  ["v-cff06f90","/frontend/tools/",{"title":"前端工具","icon":"tool","type":"article","readingTime":{"minutes":0.05,"words":16},"excerpt":"前端工具 前端所使用到的工具 VuePress;","category":["目录"]},["/frontend/tools/index.html","/frontend/tools/README.md"]],
   ["v-39063b44","/frontend/tools/vuepress.html",{"title":"VuePress初体验","icon":"vue","type":"article","readingTime":{"minutes":5.15,"words":1545},"excerpt":"VuePress初体验 起因 最近因为找实习和做项目的原因，接触了很多新知识，想着需要有一个地方来记录自己学到的只是，因此就想着搭建一个个人的博客。 因为本身是做前端开发的，所以动态网站对我来说就有些复杂了，服务器的配置、Java环境的搭建对我来说都很有难度，那些动态的功能我也都用不到。最后，我选择做一个静态网站。 最近在学Vue，就顺理成章地想到了VueP","category":["前端","工具"],"tag":["前端","VuePress","Vue","Vite","TypeScript"],"star":true},["/frontend/tools/vuepress","/frontend/tools/vuepress.md"]],
   ["v-3706649a","/404.html",{"title":"","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/404"]],
   ["v-5bc93818","/category/",{"title":"分类","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/index.html"]],

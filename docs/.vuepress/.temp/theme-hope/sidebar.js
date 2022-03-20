@@ -1,1 +1,1 @@
-export const sidebarData = {"/frontend/":["README.md",{"text":"前端工具","collapsable":true,"prefix":"tools/","children":["README.md","vuepress.md"]}]}
+export const sidebarData = {"/frontend/":["README.md",{"text":"前端工具","icon":"tool","collapsable":true,"prefix":"tools/","children":["README.md","vuepress.md"]}]}

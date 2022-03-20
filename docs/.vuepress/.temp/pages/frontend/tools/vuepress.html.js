@@ -17,9 +17,6 @@ export const data = {
       "TypeScript"
     ],
     "star": true,
-    "prev": false,
-    "next": false,
-    "foot": false,
     "summary": "VuePress初体验 起因 最近因为找实习和做项目的原因，接触了很多新知识，想着需要有一个地方来记录自己学到的只是，因此就想着搭建一个个人的博客。 因为本身是做前端开发的，所以动态网站对我来说就有些复杂了，服务器的配置、Java环境的搭建对我来说都很有难度，那些动态的功能我也都用不到。最后，我选择做一个静态网站。 最近在学Vue，就顺理成章地想到了VueP",
     "head": [
       [

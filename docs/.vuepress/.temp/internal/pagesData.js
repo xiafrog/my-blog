@@ -3,6 +3,10 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /frontend/
   "v-06198984": () => import(/* webpackChunkName: "v-06198984" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/index.html.js").then(({ data }) => data),
+  // path: /frontend/javascript/
+  "v-72d11f44": () => import(/* webpackChunkName: "v-72d11f44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/index.html.js").then(({ data }) => data),
+  // path: /frontend/javascript/tips.html
+  "v-3dcc4a03": () => import(/* webpackChunkName: "v-3dcc4a03" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/tips.html.js").then(({ data }) => data),
   // path: /frontend/tools/
   "v-cff06f90": () => import(/* webpackChunkName: "v-cff06f90" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/tools/index.html.js").then(({ data }) => data),
   // path: /frontend/tools/vuepress.html
@@ -29,6 +33,10 @@ export const pagesData = {
   "v-95f987f4": () => import(/* webpackChunkName: "v-95f987f4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/前端/index.html.js").then(({ data }) => data),
   // path: /category/%E5%89%8D%E7%AB%AF/
   "v-e9c7e408": () => import(/* webpackChunkName: "v-e9c7e408" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/前端/index.html.js").then(({ data }) => data),
+  // path: /tag/javascript/
+  "v-3b951558": () => import(/* webpackChunkName: "v-3b951558" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/javascript/index.html.js").then(({ data }) => data),
+  // path: /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
+  "v-3df94dfd": () => import(/* webpackChunkName: "v-3df94dfd" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/编程语言/index.html.js").then(({ data }) => data),
   // path: /tag/vuepress/
   "v-ed16b278": () => import(/* webpackChunkName: "v-ed16b278" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vuepress/index.html.js").then(({ data }) => data),
   // path: /category/%E5%B7%A5%E5%85%B7/

@@ -1,6 +1,6 @@
 export const themeData = {
   "blog": {
-    "description": "向上，向善",
+    "description": "严于律己，宽以待人",
     "medias": {
       "GitHub": "https://github.com/xiafrog",
       "Gitee": "https://gitee.com/xiafrog"
@@ -22,7 +22,7 @@ export const themeData = {
   "locales": {
     "/": {
       "blog": {
-        "description": "向上，向善",
+        "description": "严于律己，宽以待人",
         "medias": {
           "GitHub": "https://github.com/xiafrog",
           "Gitee": "https://gitee.com/xiafrog"
@@ -58,6 +58,13 @@ export const themeData = {
               "prefix": "tools/",
               "children": [
                 "vuepress.md"
+              ]
+            },
+            {
+              "text": "JavaScript",
+              "prefix": "javascript/",
+              "children": [
+                "tips.md"
               ]
             }
           ]

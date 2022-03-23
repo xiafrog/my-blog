@@ -12,6 +12,11 @@ export default defineNavbarConfig([
         prefix: "tools/",
         children: ["vuepress.md"],
       },
+      {
+        text: "JavaScript",
+        prefix: "javascript/",
+        children: ["tips.md"],
+      },
     ],
   },
 ]);

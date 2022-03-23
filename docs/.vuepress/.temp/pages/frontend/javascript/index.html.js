@@ -1,20 +1,20 @@
 export const data = {
-  "key": "v-06198984",
-  "path": "/frontend/",
-  "title": "前端",
+  "key": "v-72d11f44",
+  "path": "/frontend/javascript/",
+  "title": "JavaScript",
   "lang": "zh-CN",
   "frontmatter": {
-    "icon": "template",
+    "icon": "javascript",
     "category": [
       "目录"
     ],
-    "summary": "前端 所有前端相关的文章都会在这里展示 前端工具; VuePress; JavaScript; JS小技巧;",
+    "summary": "JavaScript JavaScript语言相关知识 JS小技巧;",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/frontend/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/frontend/javascript/"
         }
       ],
       [
@@ -28,7 +28,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "前端"
+          "content": "JavaScript"
         }
       ],
       [
@@ -50,10 +50,10 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.13,
-    "words": 40
+    "minutes": 0.05,
+    "words": 14
   },
-  "filePathRelative": "frontend/README.md"
+  "filePathRelative": "frontend/javascript/README.md"
 }
 
 if (import.meta.webpackHot) {

@@ -5,6 +5,10 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /frontend/
   "v-06198984": defineAsyncComponent(() => import(/* webpackChunkName: "v-06198984" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/index.html.vue")),
+  // path: /frontend/javascript/
+  "v-72d11f44": defineAsyncComponent(() => import(/* webpackChunkName: "v-72d11f44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/index.html.vue")),
+  // path: /frontend/javascript/tips.html
+  "v-3dcc4a03": defineAsyncComponent(() => import(/* webpackChunkName: "v-3dcc4a03" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/tips.html.vue")),
   // path: /frontend/tools/
   "v-cff06f90": defineAsyncComponent(() => import(/* webpackChunkName: "v-cff06f90" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/tools/index.html.vue")),
   // path: /frontend/tools/vuepress.html
@@ -31,6 +35,10 @@ export const pagesComponents = {
   "v-95f987f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-95f987f4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/前端/index.html.vue")),
   // path: /category/%E5%89%8D%E7%AB%AF/
   "v-e9c7e408": defineAsyncComponent(() => import(/* webpackChunkName: "v-e9c7e408" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/前端/index.html.vue")),
+  // path: /tag/javascript/
+  "v-3b951558": defineAsyncComponent(() => import(/* webpackChunkName: "v-3b951558" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/javascript/index.html.vue")),
+  // path: /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
+  "v-3df94dfd": defineAsyncComponent(() => import(/* webpackChunkName: "v-3df94dfd" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/编程语言/index.html.vue")),
   // path: /tag/vuepress/
   "v-ed16b278": defineAsyncComponent(() => import(/* webpackChunkName: "v-ed16b278" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/vuepress/index.html.vue")),
   // path: /category/%E5%B7%A5%E5%85%B7/

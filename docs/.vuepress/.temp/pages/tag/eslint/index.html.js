@@ -1,20 +1,23 @@
 export const data = {
-  "key": "v-06198984",
-  "path": "/frontend/",
-  "title": "前端",
+  "key": "v-c5832ae0",
+  "path": "/tag/eslint/",
+  "title": "ESLint 标签",
   "lang": "zh-CN",
   "frontmatter": {
-    "icon": "template",
-    "category": [
-      "目录"
-    ],
-    "summary": "前端 所有前端相关的文章都会在这里展示 前端工具; VuePress; ESLint; JavaScript; JS小技巧;",
+    "title": "ESLint 标签",
+    "blog": {
+      "type": "category",
+      "name": "ESLint",
+      "key": "tag"
+    },
+    "layout": "Blog",
+    "summary": "",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/frontend/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/eslint/"
         }
       ],
       [
@@ -28,14 +31,14 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "前端"
+          "content": "ESLint 标签"
         }
       ],
       [
         "meta",
         {
           "property": "og:type",
-          "content": "article"
+          "content": "website"
         }
       ],
       [
@@ -50,10 +53,10 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.15,
-    "words": 44
+    "minutes": 0,
+    "words": 0
   },
-  "filePathRelative": "frontend/README.md"
+  "filePathRelative": null
 }
 
 if (import.meta.webpackHot) {

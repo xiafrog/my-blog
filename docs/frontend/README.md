@@ -9,6 +9,7 @@ category: [目录]
 
 - [前端工具](./tools/README.md)
   - [VuePress](./tools/vuepress.md)
+  - [ESLint](./tools/eslint.md)
 
 - [JavaScript](./javascript/README.md)
   - [JS小技巧](./javascript/tips.md)

@@ -5,6 +5,7 @@
 <p><RouterLink to="/frontend/tools/">前端工具</RouterLink></p>
 <ul>
 <li><RouterLink to="/frontend/tools/vuepress.html">VuePress</RouterLink></li>
+<li><RouterLink to="/frontend/tools/eslint.html">ESLint</RouterLink></li>
 </ul>
 </li>
 <li>

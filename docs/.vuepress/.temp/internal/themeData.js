@@ -57,7 +57,8 @@ export const themeData = {
               "text": "前端工具",
               "prefix": "tools/",
               "children": [
-                "vuepress.md"
+                "vuepress.md",
+                "eslint.md"
               ]
             },
             {

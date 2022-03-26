@@ -10,7 +10,7 @@ export default defineNavbarConfig([
       {
         text: "前端工具",
         prefix: "tools/",
-        children: ["vuepress.md"],
+        children: ["vuepress.md", "eslint.md"],
       },
       {
         text: "JavaScript",

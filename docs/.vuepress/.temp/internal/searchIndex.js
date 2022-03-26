@@ -53,9 +53,28 @@ export const searchIndex = [
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "用?.简化和&&和三元运算符",
+        "slug": "用-简化和-和三元运算符",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用Array.prototype.at()取数组后几位",
+        "slug": "使用array-prototype-at-取数组后几位",
+        "children": []
       }
     ],
     "path": "/frontend/javascript/tips.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "ESLint",
+    "headers": [],
+    "path": "/frontend/tools/eslint.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -215,9 +234,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "VuePress 标签",
+    "title": "ESLint 标签",
     "headers": [],
-    "path": "/tag/vuepress/",
+    "path": "/tag/eslint/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -225,6 +244,20 @@ export const searchIndex = [
     "title": "工具 分类",
     "headers": [],
     "path": "/category/%E5%B7%A5%E5%85%B7/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Prettier 标签",
+    "headers": [],
+    "path": "/tag/prettier/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "VuePress 标签",
+    "headers": [],
+    "path": "/tag/vuepress/",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -1,20 +1,23 @@
 export const data = {
-  "key": "v-cff06f90",
-  "path": "/frontend/tools/",
-  "title": "前端工具",
+  "key": "v-288e4719",
+  "path": "/tag/http/",
+  "title": "http 标签",
   "lang": "zh-CN",
   "frontmatter": {
-    "icon": "tool",
-    "category": [
-      "目录"
-    ],
-    "summary": "前端工具 前端所使用到的工具/库 VuePress; ESLint; Axios;",
+    "title": "http 标签",
+    "blog": {
+      "type": "category",
+      "name": "http",
+      "key": "tag"
+    },
+    "layout": "Blog",
+    "summary": "",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/frontend/tools/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
         }
       ],
       [
@@ -28,14 +31,14 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "前端工具"
+          "content": "http 标签"
         }
       ],
       [
         "meta",
         {
           "property": "og:type",
-          "content": "article"
+          "content": "website"
         }
       ],
       [
@@ -50,10 +53,10 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.08,
-    "words": 23
+    "minutes": 0,
+    "words": 0
   },
-  "filePathRelative": "frontend/tools/README.md"
+  "filePathRelative": null
 }
 
 if (import.meta.webpackHot) {

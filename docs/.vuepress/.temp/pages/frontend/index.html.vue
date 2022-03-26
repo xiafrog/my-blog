@@ -6,6 +6,7 @@
 <ul>
 <li><RouterLink to="/frontend/tools/vuepress.html">VuePress</RouterLink></li>
 <li><RouterLink to="/frontend/tools/eslint.html">ESLint</RouterLink></li>
+<li><RouterLink to="/frontend/tools/axios.html">Axios</RouterLink></li>
 </ul>
 </li>
 <li>

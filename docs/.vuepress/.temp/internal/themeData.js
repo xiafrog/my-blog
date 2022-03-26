@@ -58,7 +58,8 @@ export const themeData = {
               "prefix": "tools/",
               "children": [
                 "vuepress.md",
-                "eslint.md"
+                "eslint.md",
+                "axios.md"
               ]
             },
             {

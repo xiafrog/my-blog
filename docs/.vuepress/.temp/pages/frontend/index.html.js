@@ -8,7 +8,7 @@ export const data = {
     "category": [
       "目录"
     ],
-    "summary": "前端 所有前端相关的文章都会在这里展示 前端工具; VuePress; ESLint; JavaScript; JS小技巧;",
+    "summary": "前端 所有前端相关的文章都会在这里展示 前端工具; VuePress; ESLint; Axios; JavaScript; JS小技巧;",
     "head": [
       [
         "meta",
@@ -50,8 +50,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.15,
-    "words": 44
+    "minutes": 0.16,
+    "words": 48
   },
   "filePathRelative": "frontend/README.md"
 }

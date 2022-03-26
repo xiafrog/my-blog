@@ -7,6 +7,8 @@ export const pagesData = {
   "v-72d11f44": () => import(/* webpackChunkName: "v-72d11f44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/index.html.js").then(({ data }) => data),
   // path: /frontend/javascript/tips.html
   "v-3dcc4a03": () => import(/* webpackChunkName: "v-3dcc4a03" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/javascript/tips.html.js").then(({ data }) => data),
+  // path: /frontend/tools/axios.html
+  "v-1b02705b": () => import(/* webpackChunkName: "v-1b02705b" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/tools/axios.html.js").then(({ data }) => data),
   // path: /frontend/tools/eslint.html
   "v-e69a52e0": () => import(/* webpackChunkName: "v-e69a52e0" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/tools/eslint.html.js").then(({ data }) => data),
   // path: /frontend/tools/
@@ -39,10 +41,14 @@ export const pagesData = {
   "v-3b951558": () => import(/* webpackChunkName: "v-3b951558" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/javascript/index.html.js").then(({ data }) => data),
   // path: /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/
   "v-3df94dfd": () => import(/* webpackChunkName: "v-3df94dfd" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/编程语言/index.html.js").then(({ data }) => data),
-  // path: /tag/eslint/
-  "v-c5832ae0": () => import(/* webpackChunkName: "v-c5832ae0" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/eslint/index.html.js").then(({ data }) => data),
+  // path: /tag/http/
+  "v-288e4719": () => import(/* webpackChunkName: "v-288e4719" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/http/index.html.js").then(({ data }) => data),
   // path: /category/%E5%B7%A5%E5%85%B7/
   "v-14145d44": () => import(/* webpackChunkName: "v-14145d44" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/工具/index.html.js").then(({ data }) => data),
+  // path: /tag/axios/
+  "v-4507db72": () => import(/* webpackChunkName: "v-4507db72" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/axios/index.html.js").then(({ data }) => data),
+  // path: /tag/eslint/
+  "v-c5832ae0": () => import(/* webpackChunkName: "v-c5832ae0" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/eslint/index.html.js").then(({ data }) => data),
   // path: /tag/prettier/
   "v-41b09724": () => import(/* webpackChunkName: "v-41b09724" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/prettier/index.html.js").then(({ data }) => data),
   // path: /tag/vuepress/

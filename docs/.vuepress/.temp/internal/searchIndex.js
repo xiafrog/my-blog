@@ -72,6 +72,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Axios封装",
+    "headers": [],
+    "path": "/frontend/tools/axios.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "ESLint",
     "headers": [],
     "path": "/frontend/tools/eslint.html",
@@ -234,9 +241,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "ESLint 标签",
+    "title": "http 标签",
     "headers": [],
-    "path": "/tag/eslint/",
+    "path": "/tag/http/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -244,6 +251,20 @@ export const searchIndex = [
     "title": "工具 分类",
     "headers": [],
     "path": "/category/%E5%B7%A5%E5%85%B7/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Axios 标签",
+    "headers": [],
+    "path": "/tag/axios/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "ESLint 标签",
+    "headers": [],
+    "path": "/tag/eslint/",
     "pathLocale": "/",
     "extraFields": []
   },

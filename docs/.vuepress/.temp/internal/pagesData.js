@@ -1,6 +1,10 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /essay/One_Flew_Over_the_Cuckoos_Nest.html
+  "v-3e3a3245": () => import(/* webpackChunkName: "v-3e3a3245" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/essay/One_Flew_Over_the_Cuckoos_Nest.html.js").then(({ data }) => data),
+  // path: /essay/
+  "v-7c80db8b": () => import(/* webpackChunkName: "v-7c80db8b" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/essay/index.html.js").then(({ data }) => data),
   // path: /frontend/
   "v-06198984": () => import(/* webpackChunkName: "v-06198984" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/frontend/index.html.js").then(({ data }) => data),
   // path: /frontend/javascript/
@@ -31,6 +35,14 @@ export const pagesData = {
   "v-154dc4c4": () => import(/* webpackChunkName: "v-154dc4c4" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/star/index.html.js").then(({ data }) => data),
   // path: /timeline/
   "v-01560935": () => import(/* webpackChunkName: "v-01560935" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/timeline/index.html.js").then(({ data }) => data),
+  // path: /category/%E5%BD%B1%E8%AF%84/
+  "v-6a4676aa": () => import(/* webpackChunkName: "v-6a4676aa" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/影评/index.html.js").then(({ data }) => data),
+  // path: /tag/%E9%A3%9E%E8%B6%8A%E7%96%AF%E4%BA%BA%E9%99%A2/
+  "v-21c8ac3c": () => import(/* webpackChunkName: "v-21c8ac3c" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/飞越疯人院/index.html.js").then(({ data }) => data),
+  // path: /category/%E6%9D%82%E6%96%87/
+  "v-083981f8": () => import(/* webpackChunkName: "v-083981f8" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/杂文/index.html.js").then(({ data }) => data),
+  // path: /tag/%E5%9B%9E%E5%BF%86/
+  "v-632863ac": () => import(/* webpackChunkName: "v-632863ac" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/tag/回忆/index.html.js").then(({ data }) => data),
   // path: /category/%E7%9B%AE%E5%BD%95/
   "v-f96d488c": () => import(/* webpackChunkName: "v-f96d488c" */"C:/code/vue-press/my-blog/docs/.vuepress/.temp/pages/category/目录/index.html.js").then(({ data }) => data),
   // path: /tag/%E5%89%8D%E7%AB%AF/

@@ -1,13 +1,13 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-25ca6d0e",
+  "path": "/tag/%E6%9D%82%E6%96%87/",
+  "title": "杂文 标签",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
+    "title": "杂文 标签",
     "blog": {
       "type": "category",
-      "name": "HTTP",
+      "name": "杂文",
       "key": "tag"
     },
     "layout": "Blog",
@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/%E6%9D%82%E6%96%87/"
         }
       ],
       [
@@ -31,7 +31,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "HTTP 标签"
+          "content": "杂文 标签"
         }
       ],
       [

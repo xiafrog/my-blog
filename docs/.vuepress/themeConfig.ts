@@ -43,6 +43,12 @@ export default defineThemeConfig({
 
   home: "/",
 
+  encrypt: {
+    config: {
+      "/essay/": ["7758258"],
+    },
+  },
+
   darkmode: "switch",
 
   plugins: {

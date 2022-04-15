@@ -7,6 +7,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "飞越疯人院",
+    "headers": [],
+    "path": "/essay/One_Flew_Over_the_Cuckoos_Nest.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "杂文",
+    "headers": [],
+    "path": "/essay/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "前端",
     "headers": [],
     "path": "/frontend/",
@@ -73,7 +87,62 @@ export const searchIndex = [
   },
   {
     "title": "Axios封装",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "目标",
+        "slug": "目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "准备",
+        "slug": "准备",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初步封装",
+        "slug": "初步封装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设置数据类型",
+        "slug": "设置数据类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "全局拦截",
+        "slug": "全局拦截",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实例拦截",
+        "slug": "实例拦截",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "单个请求拦截",
+        "slug": "单个请求拦截",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "get、post等方法的封装",
+        "slug": "get、post等方法的封装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "完整代码",
+        "slug": "完整代码",
+        "children": []
+      }
+    ],
     "path": "/frontend/tools/axios.html",
     "pathLocale": "/",
     "extraFields": []
@@ -206,6 +275,34 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "影评 分类",
+    "headers": [],
+    "path": "/category/%E5%BD%B1%E8%AF%84/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "飞越疯人院 标签",
+    "headers": [],
+    "path": "/tag/%E9%A3%9E%E8%B6%8A%E7%96%AF%E4%BA%BA%E9%99%A2/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "杂文 分类",
+    "headers": [],
+    "path": "/category/%E6%9D%82%E6%96%87/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "回忆 标签",
+    "headers": [],
+    "path": "/tag/%E5%9B%9E%E5%BF%86/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "目录 分类",
     "headers": [],
     "path": "/category/%E7%9B%AE%E5%BD%95/",
@@ -241,7 +338,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "http 标签",
+    "title": "HTTP 标签",
     "headers": [],
     "path": "/tag/http/",
     "pathLocale": "/",

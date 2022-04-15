@@ -1,23 +1,20 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-7c80db8b",
+  "path": "/essay/",
+  "title": "杂文",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
-    "blog": {
-      "type": "category",
-      "name": "HTTP",
-      "key": "tag"
-    },
-    "layout": "Blog",
-    "summary": "",
+    "icon": "blog",
+    "category": [
+      "目录"
+    ],
+    "summary": "杂文 平时有什么想说的话，都在这里啦，有点乱，见谅。 飞越疯人院;",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/essay/"
         }
       ],
       [
@@ -31,14 +28,14 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "HTTP 标签"
+          "content": "杂文"
         }
       ],
       [
         "meta",
         {
           "property": "og:type",
-          "content": "website"
+          "content": "article"
         }
       ],
       [
@@ -53,10 +50,10 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0,
-    "words": 0
+    "minutes": 0.09,
+    "words": 28
   },
-  "filePathRelative": null
+  "filePathRelative": "essay/README.md"
 }
 
 if (import.meta.webpackHot) {

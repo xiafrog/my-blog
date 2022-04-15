@@ -1,13 +1,13 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-00b2c18d",
+  "path": "/tag/%E5%A5%A5%E6%96%AF%E5%8D%A1/",
+  "title": "奥斯卡 标签",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
+    "title": "奥斯卡 标签",
     "blog": {
       "type": "category",
-      "name": "HTTP",
+      "name": "奥斯卡",
       "key": "tag"
     },
     "layout": "Blog",
@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/%E5%A5%A5%E6%96%AF%E5%8D%A1/"
         }
       ],
       [
@@ -31,7 +31,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "HTTP 标签"
+          "content": "奥斯卡 标签"
         }
       ],
       [

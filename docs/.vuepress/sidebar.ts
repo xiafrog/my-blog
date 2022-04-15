@@ -2,4 +2,5 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig({
   "/frontend/": "structure",
+  "/essay/": "structure",
 });

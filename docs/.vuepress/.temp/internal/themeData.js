@@ -7,7 +7,13 @@ export const themeData = {
     },
     "roundAvatar": true
   },
-  "encrypt": {},
+  "encrypt": {
+    "config": {
+      "/essay/": [
+        "$2a$10$UZRur6GZ1yyobTxtUa7BrudkJq7IQT8RsdUrHZWB4uefT.QCEogo2"
+      ]
+    }
+  },
   "pure": false,
   "iconPrefix": "iconfont icon-",
   "darkmode": "switch",
@@ -34,7 +40,8 @@ export const themeData = {
       "navbarAutoHide": "mobile",
       "hideSiteNameonMobile": true,
       "sidebar": {
-        "/frontend/": "structure"
+        "/frontend/": "structure",
+        "/essay/": "structure"
       },
       "sidebarIcon": true,
       "headingDepth": 2,
@@ -69,6 +76,14 @@ export const themeData = {
                 "tips.md"
               ]
             }
+          ]
+        },
+        {
+          "text": "杂文",
+          "icon": "blog",
+          "prefix": "/essay/",
+          "children": [
+            "One_Flew_Over_the_Cuckoos_Nest.md"
           ]
         }
       ],

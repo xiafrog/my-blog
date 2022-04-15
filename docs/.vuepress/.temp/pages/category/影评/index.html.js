@@ -1,14 +1,14 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-6a4676aa",
+  "path": "/category/%E5%BD%B1%E8%AF%84/",
+  "title": "影评 分类",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
+    "title": "影评 分类",
     "blog": {
       "type": "category",
-      "name": "HTTP",
-      "key": "tag"
+      "name": "影评",
+      "key": "category"
     },
     "layout": "Blog",
     "summary": "",
@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/category/%E5%BD%B1%E8%AF%84/"
         }
       ],
       [
@@ -31,7 +31,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "HTTP 标签"
+          "content": "影评 分类"
         }
       ],
       [

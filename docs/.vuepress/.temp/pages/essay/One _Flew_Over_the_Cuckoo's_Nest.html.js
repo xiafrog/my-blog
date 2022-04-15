@@ -1,23 +1,16 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-0270fa71",
+  "path": "/essay/One%20_Flew_Over_the_Cuckoo's_Nest.html",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
-    "blog": {
-      "type": "category",
-      "name": "HTTP",
-      "key": "tag"
-    },
-    "layout": "Blog",
     "summary": "",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/essay/One%20_Flew_Over_the_Cuckoo's_Nest.html"
         }
       ],
       [
@@ -30,15 +23,8 @@ export const data = {
       [
         "meta",
         {
-          "property": "og:title",
-          "content": "HTTP 标签"
-        }
-      ],
-      [
-        "meta",
-        {
           "property": "og:type",
-          "content": "website"
+          "content": "article"
         }
       ],
       [
@@ -56,7 +42,7 @@ export const data = {
     "minutes": 0,
     "words": 0
   },
-  "filePathRelative": null
+  "filePathRelative": "essay/One _Flew_Over_the_Cuckoo's_Nest.md"
 }
 
 if (import.meta.webpackHot) {

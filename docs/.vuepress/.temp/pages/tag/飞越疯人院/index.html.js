@@ -1,13 +1,13 @@
 export const data = {
-  "key": "v-288e4719",
-  "path": "/tag/http/",
-  "title": "HTTP 标签",
+  "key": "v-21c8ac3c",
+  "path": "/tag/%E9%A3%9E%E8%B6%8A%E7%96%AF%E4%BA%BA%E9%99%A2/",
+  "title": "飞越疯人院 标签",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "HTTP 标签",
+    "title": "飞越疯人院 标签",
     "blog": {
       "type": "category",
-      "name": "HTTP",
+      "name": "飞越疯人院",
       "key": "tag"
     },
     "layout": "Blog",
@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/http/"
+          "content": "https://xiafrog.github.io/my-blog/my-blog/tag/%E9%A3%9E%E8%B6%8A%E7%96%AF%E4%BA%BA%E9%99%A2/"
         }
       ],
       [
@@ -31,7 +31,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "HTTP 标签"
+          "content": "飞越疯人院 标签"
         }
       ],
       [

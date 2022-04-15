@@ -19,4 +19,10 @@ export default defineNavbarConfig([
       },
     ],
   },
+  {
+    text: "杂文",
+    icon: "blog",
+    prefix: "/essay/",
+    children: ["One_Flew_Over_the_Cuckoos_Nest.md"],
+  },
 ]);
